@@ -1,0 +1,41 @@
+Here's a `package.json` for your Vite + TypeScript project:
+
+```json
+{
+  "name": "daniel-imad-portfolio",
+  "version": "1.0.0",
+  "description": "A simple web developer portfolio for Daniel Imad in Beirut.",
+  "author": "Daniel Imad",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "typescript": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
+```
+
+### Explanation:
+
+- **Project Name**: Based on the prompt, the project is named `daniel-imad-portfolio`.
+- **Version**: Set to `1.0.0` as this appears to be the initial version.
+- **Description**: Matches the provided project overview.
+- **Scripts**:
+  - `dev`: Starts the Vite development server.
+  - `build`: Builds the project for production.
+  - `preview`: Serves the built project for preview.
+- **Dependencies**:
+  - `react` and `react-dom`: As a frontend stack option, React is included (alternatively, you can replace these with `vue` and `@vitejs/plugin-vue` if opting for Vue.js).
+- **DevDependencies**:
+  - `vite`: The main tooling for development and build processes.
+  - `typescript`: For using TypeScript.
+  - `@vitejs/plugin-react`: Vite plugin needed for React projects (replace with `@vitejs/plugin-vue` if opting for Vue.js).
