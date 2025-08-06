@@ -1,8 +1,3 @@
-To set up a simple Vite configuration for a TypeScript project with the provided specifications, you'll primarily focus on the frontend tooling with Vite. Given the requirement for Vue or React, I'll choose Vue.js for this example, but you can easily modify it to use React by adjusting the project setup accordingly.
-
-First, ensure you have Vite, TypeScript, and optionally Vue.js or React installed in your project. Then, you can create a `vite.config.ts` file to configure Vite as follows:
-
-```typescript
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import path from 'path';
